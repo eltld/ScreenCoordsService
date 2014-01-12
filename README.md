@@ -22,7 +22,7 @@ http://www.cs.fsu.edu/~baker/devices/lxr/http/source/linux/include/linux/input.h
 cd /usr/include/linux<br>
 find input.h<br>
 注意！使用 android ndk-build 时，如果编译不通过并提示常量未定义，可以查看 <ndk>/platform/.../usr/include/linux/input.h 是否定义了相应的宏；如果没有，指定具体头文件，比如<br>
-\#include &lt/usr/include/linux/input.h&bt     // Ubuntu 12.04 LTS<br>
+\#include &lt;/usr/include/linux/input.h&gt;     // Ubuntu 12.04 LTS<br>
 感谢：
 ======
 http://www.pocketmagic.net/2012/04/injecting-events-programatically-on-android/#.UbQK0KKafGk<br>
