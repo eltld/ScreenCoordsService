@@ -21,7 +21,7 @@ http://www.cs.fsu.edu/~baker/devices/lxr/http/source/linux/include/linux/input.h
 如果你使用 Ubuntu 或其他 Linux 开发环境，可以在 /usr/include/linux/ 下找到：<br>
 cd /usr/include/linux<br>
 find input.h<br>
-注意！使用 android ndk-build 时，如果编译不通过并提示常量未定义，可以查看 <ndk>/platform/.../usr/include/linux/input.h 是否定义了相应的宏；如果没有，指定具体头文件，比如<br>
+注意！使用 android ndk-build 时，如果编译不通过并提示常量未定义，可以查看 &lt;ndk&gt;/platform/.../usr/include/linux/input.h 是否定义了相应的宏；如果没有，指定具体头文件，比如<br>
 \#include &lt;/usr/include/linux/input.h&gt;     // Ubuntu 12.04 LTS<br>
 感谢：
 ======
